@@ -1,40 +1,85 @@
-# jeu de A à Z
+# 🎮 Jeu 1vs2 - Projet de Première Année
 
-## Introduction à mon projet de première année : Jeu 1vs2 ##
+Bienvenue dans le dépôt GitHub de **1vs2 Map**, un jeu interactif développé dans le cadre de mon projet de première année. Ce projet utilise **SDL2** et **SDL_ttf** pour offrir un rendu graphique simple mais efficace. 🕹️
 
-Dans le cadre de mon projet de première année, j'ai créé un jeu interactif en utilisant SDL2 et SDL_ttf pour la partie graphique. Le but principal du projet est de concevoir une carte où plusieurs joueurs peuvent interagir, se déplacer, attaquer et utiliser des objets comme des potions.
+---
 
-Concept du jeu
-Le jeu, intitulé 1vs2 Map, propose un environnement simple où trois joueurs évoluent sur une grille de 10x10 cases :
+## 📝 Description du Projet
 
-Chaque joueur possède un nom, des points de vie (HP) initiaux, et des coordonnées (x, y) définissant leur position sur la carte.
-Les joueurs peuvent effectuer plusieurs actions, comme se déplacer, attaquer d'autres joueurs ou ramasser des potions.
-Fonctionnalités principales
-Déplacement des joueurs :
-Les joueurs peuvent avancer, reculer, monter ou descendre dans les limites de la carte. Un contrôle a été ajouté pour éviter les collisions avec d'autres joueurs ou les déplacements hors des limites de la carte.
+**1vs2 Map** est un jeu où trois joueurs évoluent sur une grille de 10x10 cases. Ils peuvent interagir de différentes manières :  
+- **Se déplacer**
+- **Attaquer des adversaires**
+- **Ramasser des potions** pour augmenter leur chance de survie.
 
-Attaque :
+Le projet vise à combiner une expérience de jeu interactive avec une gestion stratégique des actions, le tout dans un environnement graphique minimaliste.
 
-Les joueurs peuvent choisir de frapper un adversaire avec une arme (couteau ou hache), chaque arme infligeant des dégâts spécifiques.
-La direction de l'attaque est définie par le joueur.
-Si les points de vie (HP) d'un joueur tombent à 0, il est automatiquement retiré de la partie.
-Gestion des potions :
-Une potion de santé (type 'H') est placée aléatoirement sur la carte. Lorsqu'un joueur ramasse une potion, ses points de vie augmentent. Cela encourage les déplacements stratégiques pour survivre plus longtemps.
+---
 
-Rendu graphique :
+## 🎮 Fonctionnalités Principales
 
-Le jeu utilise SDL2 pour afficher les joueurs et les objets sur une carte de 10x10 cases.
-Chaque case est visualisée avec des couleurs spécifiques : bleu pour un joueur, vert pour une potion, et blanc pour une case vide.
-Interactions dynamiques :
+### 🔄 Déplacement des joueurs
+- Les joueurs peuvent avancer, reculer, monter ou descendre dans les limites de la carte.  
+- Les collisions entre joueurs et les déplacements hors des limites de la carte sont empêchés.  
 
-Après un certain nombre d'actions consécutives, des joueurs peuvent se déplacer aléatoirement pour rendre le jeu plus imprévisible.
-Le joueur peut choisir de quitter le jeu à tout moment.
-Fonctionnement technique
-Le jeu repose sur :
+### ⚔️ Attaque
+- Chaque joueur peut attaquer un adversaire avec une arme : **couteau** ou **hache**.  
+- Chaque arme inflige des dégâts spécifiques.  
+- Si les points de vie (HP) d'un joueur tombent à **0**, il est retiré du jeu.  
 
-Une structure player_s pour gérer les informations des joueurs : nom, coordonnées, HP, etc.
-Une structure potion pour représenter les objets de type potion.
-Une boucle principale qui gère les événements via SDL_Event, rafraîchit l'affichage, et attend les actions des joueurs.
-L'utilisation de SDL_ttf pour afficher les noms des joueurs et d'autres informations textuelles directement sur la carte.
+### 💊 Gestion des potions
+- Une potion de santé (type 'H') est placée **aléatoirement** sur la carte.  
+- Lorsqu'un joueur ramasse une potion, ses points de vie augmentent, offrant un avantage stratégique.  
+
+### 🖥️ Rendu graphique
+- Le jeu affiche les joueurs et les objets sur une grille de **10x10 cases**.  
+- Les couleurs permettent de distinguer les éléments :  
+  - 🟦 **Bleu** : Joueurs  
+  - 🟩 **Vert** : Potions  
+  - ⚪ **Blanc** : Cases vides  
+
+### 🔀 Interactions dynamiques
+- Après un certain nombre d'actions, des joueurs peuvent se déplacer aléatoirement pour ajouter un élément d’imprévisibilité.  
+- Les joueurs peuvent **quitter la partie à tout moment**.  
+
+---
+
+## 🛠️ Fonctionnement Technique
+
+### Structures utilisées
+- **`player_s`** : Contient les informations des joueurs (nom, coordonnées, HP, etc.).  
+- **`potion`** : Représente les objets de type potion.  
+
+### Boucle principale
+- Gère les événements via **SDL_Event**.  
+- Rafraîchit l’affichage en temps réel.  
+- Attend les actions des joueurs.  
+
+### SDL_ttf
+- Utilisé pour afficher les **noms des joueurs** et d’autres informations textuelles directement sur la carte.  
+
+---
+
+## 🚀 Améliorations Futures
+
+Voici quelques idées pour rendre le jeu encore plus captivant :  
+- Ajouter des **animations** pour les attaques et les déplacements.  
+- Intégrer différents types de potions avec des effets variés (exemple : **bouclier** ou **augmentation de vitesse**).  
+- Proposer un **mode multijoueur** en ligne ou en local.  
+- Améliorer l’interface utilisateur avec des menus plus intuitifs et une meilleure esthétique.  
+
+---
+
+## 📸 Aperçu
+
+*(Ajoutez ici des captures d'écran ou des GIFs du jeu en action pour donner un aperçu visuel aux lecteurs.)*
+
+---
+
+## 📦 Installation et Exécution
+
+1. Clonez ce dépôt :  
+   ```bash
+   git clone https://github.com/votre-utilisateur/jeu-1vs2.git
+   cd jeu-1vs2
 
 ## Code ##
