@@ -71,7 +71,8 @@ Voici quelques idées pour rendre le jeu encore plus captivant :
 
 ## 📸 Aperçu
 
-*(Ajoutez ici des captures d'écran ou des GIFs du jeu en action pour donner un aperçu visuel aux lecteurs.)*
+![image](https://github.com/user-attachments/assets/c7968244-e8cd-44e2-a3a9-d8f98c47f600)
+
 
 ---
 
@@ -79,7 +80,6 @@ Voici quelques idées pour rendre le jeu encore plus captivant :
 
 1. Clonez ce dépôt :  
    ```bash
-   git clone https://github.com/votre-utilisateur/jeu-1vs2.git
+   git clone https://github.com/mathieu0565/jeu-1vs2.git
    cd jeu-1vs2
 
-## Code ##
