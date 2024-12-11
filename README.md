@@ -2,6 +2,8 @@
 
 Bienvenue dans le dépôt GitHub de **1vs2 Map**, un jeu interactif développé dans le cadre de mon projet de première année. Ce projet utilise **SDL2** et **SDL_ttf** pour offrir un rendu graphique simple mais efficace. 🕹️
 
+👉 [Accéder au code source](https://github.com/mathieu0565/Projet-personnel-BTS/blob/main/jeu-1vs2.c)
+
 ---
 
 ## 📝 Description du Projet
@@ -76,6 +78,5 @@ Voici quelques idées pour rendre le jeu encore plus captivant :
 
 ---
 
-👉 [Accéder au code source](https://github.com/mathieu0565/Projet-personnel-BTS/blob/main/jeu-1vs2.c)
 
 
