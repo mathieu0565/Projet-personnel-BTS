@@ -76,10 +76,6 @@ Voici quelques idées pour rendre le jeu encore plus captivant :
 
 ---
 
-## 📦 Installation et Exécution
+👉 [Accéder au code source](https://github.com/mathieu0565/Projet-personnel-BTS/blob/main/jeu-1vs2.c)
 
-1. Clonez ce dépôt :  
-   ```bash
-   git clone https://github.com/mathieu0565/jeu-1vs2.git
-   cd jeu-1vs2
 
