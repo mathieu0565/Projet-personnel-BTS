@@ -35,7 +35,8 @@ Le projet vise à combiner une expérience de jeu interactive avec une gestion s
 ### 🖥️ Rendu graphique
 - Le jeu affiche les joueurs et les objets sur une grille de **10x10 cases**.  
 - Les couleurs permettent de distinguer les éléments :  
-  - 🟦 **Bleu** : Joueurs  
+  - 🟦 **Bleu** : Joueur
+  - ⬛️ **Noir** : Ennemis 
   - 🟩 **Vert** : Potions  
   - ⚪ **Blanc** : Cases vides  
 
