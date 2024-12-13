@@ -64,7 +64,6 @@ Le projet vise à combiner une expérience de jeu interactive avec une gestion s
 
 ## 🚀 Améliorations Futures
 
-Voici quelques idées pour rendre le jeu encore plus captivant :  
 - Ajouter des **animations** pour les attaques et les déplacements.  
 - Intégrer différents types de potions avec des effets variés (exemple : **bouclier** ou **augmentation de vitesse**).  
 - Proposer un **mode multijoueur** en ligne ou en local.  
